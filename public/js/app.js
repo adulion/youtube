@@ -55484,11 +55484,11 @@ function (_Component) {
       var _this2 = this;
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "md-form mt-0"
+        className: "md-form mt-5"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
         className: "form-control",
         type: "text",
-        placeholder: "Search",
+        placeholder: "Search Youtube",
         "aria-label": "Search",
         onKeyDown: this.handleKeyDown,
         onChange: function onChange(e) {

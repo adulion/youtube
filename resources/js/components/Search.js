@@ -21,8 +21,8 @@ export class Search extends Component {
 
     render() {
         return(
-            <div className="md-form mt-0">
-                <input className="form-control" type="text" placeholder="Search" aria-label="Search" onKeyDown={this.handleKeyDown} onChange={e => this.setState({ searchString: e.target.value })}/>
+            <div className="md-form mt-5">
+                <input className="form-control" type="text" placeholder="Search Youtube" aria-label="Search" onKeyDown={this.handleKeyDown} onChange={e => this.setState({ searchString: e.target.value })}/>
                 <input type="button" className={"btn btn-primary"} value={"Search"} onClick={()=>this.props.searchYoutube(this.state.searchString)}/>
             </div>
         )
